@@ -16,8 +16,23 @@ goal = "Programmer"
 #print(f"Hello {name} !")
 #print(f"Next year you will be {int(age)+1} years old.")
 
-age = int(input("how old are you? "))
-if age < 18:
-    print("You are underage.")
+
+# age = int(input("how old are you? "))
+# if age < 18:
+#     print("You are underage.")
+# else:
+#     print("You are an adult.")
+
+
+score = int(input("How many points did you get? "))
+
+if score >= 95:
+    print("Excellent")
+elif score >= 75:
+    print("Good")
+elif score >= 55:
+    print("Pass")
 else:
-    print("You are an adult.")
+    print("Fail")
+
+
